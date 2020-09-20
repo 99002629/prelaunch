@@ -1,3 +1,5 @@
+#include"head.h"
+
 int main() {
     //Local Declarations
     int option;
