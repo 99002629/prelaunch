@@ -5,7 +5,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <math.h>
-
+#define bool    _Bool
+#define true    1
+#define false   0
 
 void login();
 void mainMenu();
