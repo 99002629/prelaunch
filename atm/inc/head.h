@@ -1,10 +1,10 @@
 #ifndef __HEAD_H__
 #define __HEAD_H__
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include <math.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<stdbool.h>
+#include<math.h>
 #define bool    _Bool
 #define true    1
 #define false   0
