@@ -17,6 +17,7 @@ void checkBalance(float balance) {
 
 }
 float moneyDeposit(float balance) {
+    if(balance <= 0 || balance > 50,000) return 0.0;
     float deposit;
     printf("You choose to Deposit a money\n");
     printf("$$$$Your Balance is: $%.2f\n\n", balance);
@@ -27,6 +28,7 @@ float moneyDeposit(float balance) {
     return balance;
 }
 float moneyWithdraw(float balance) {
+    if(balance <= 0 || balance > 50,000) return 0.0;
     float withdraw;
     bool back = true;
 
