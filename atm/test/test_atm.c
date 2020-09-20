@@ -39,5 +39,7 @@ int main() {
 
 /* Write all the test functions */
 void test_atm(void) {
+  CU_ASSERT(10500.00 == moneyDeposit(500.00))
+  
     
 }
